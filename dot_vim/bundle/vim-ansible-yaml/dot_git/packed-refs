@@ -1,0 +1,4 @@
+# pack-refs with: peeled fully-peeled 
+c9ed0f85c2aee3058d07800c214fd7af5f8f47ae refs/remotes/origin/ansible_functions
+33643fc45b20e217e985436d005685dc8f476f06 refs/remotes/origin/master
+b55f47ee0a0b7ba06942ab355cb9fd25f254f3dd refs/tags/v1.0
