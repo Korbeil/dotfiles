@@ -34,7 +34,7 @@ t = tag -n
 [core]
 # Don't consider trailing space change as a cause for merge conflicts
 whitespace = -trailing-space
-excludesfile = /Users/baptisteleduc/.gitignore
+excludesfile = ~/.gitignore
 # Use your favorite editor
 editor = vim
 
