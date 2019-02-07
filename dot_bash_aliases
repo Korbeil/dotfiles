@@ -1,1 +1,2 @@
 alias tas="tmux attach-session -t"
+alias tls="tmux list-sessions"
