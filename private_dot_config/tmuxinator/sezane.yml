@@ -1,0 +1,23 @@
+# /home/baptiste/.config/tmuxinator/sezane.yml
+
+name: sezane
+root: ~/Sites/jolicode/sezane/
+
+# Runs in each window and pane before window/pane specific commands. Useful for setting up interpreter versions.
+pre_window: pipenv shell
+
+# Specifies (by name or index) which window will be selected on project startup. If not set, the first window is used.
+# startup_window: editor
+
+# Specifies (by index) which pane of the specified window will be selected on project startup. If not set, the first pane is used.
+# startup_pane: 1
+
+windows:
+  - base:
+      layout: main-vertical
+      panes:
+        - base:
+          - fab local.start local.create_database
+        - watch:
+          - fab local.store_sezane.watch
+
