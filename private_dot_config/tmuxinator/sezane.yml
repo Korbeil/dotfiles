@@ -3,21 +3,19 @@
 name: sezane
 root: ~/Sites/jolicode/sezane/
 
-# Runs in each window and pane before window/pane specific commands. Useful for setting up interpreter versions.
-pre_window: pipenv shell
+# Run on project start, the first time
+on_project_start: pipenv run fab local.start
 
-# Specifies (by name or index) which window will be selected on project startup. If not set, the first window is used.
-# startup_window: editor
 
-# Specifies (by index) which pane of the specified window will be selected on project startup. If not set, the first pane is used.
-# startup_pane: 1
+# Runs on project start, always
+on_project_stop: pipenv run fab local.stop
 
 windows:
   - base:
       layout: main-vertical
       panes:
         - base:
-          - fab local.start local.create_database
+          - pipenv run fab local.create_database && pipenv shell
         - watch:
-          - fab local.store_sezane.watch
+          - pipenv run fab local.store_sezane.watch && pipenv shell
 
