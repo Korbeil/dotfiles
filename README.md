@@ -7,7 +7,7 @@ This repository is configured to work with `chezmoi` tool, so first of all, you 
 ## Softwares
 
 ```
-sudo apt install vim git curl ruby python-pip chezmoi tmux docker.io
+sudo apt install vim git curl ruby python-pip chezmoi tmux docker.io thefuck
 pip install pipenv
 sudo gem install tmuxinator
 ```

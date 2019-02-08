@@ -17,5 +17,5 @@ windows:
         - base:
           - pipenv run fab local.create_database && pipenv shell
         - watch:
-          - pipenv run fab local.store_sezane.watch && pipenv shell
+          - pipenv shell fab local.store_sezane.watch
 
