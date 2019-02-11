@@ -18,6 +18,4 @@ windows:
           - pipenv run fab local.create_database && pipenv shell
         - assets_watch:
           - pipenv shell fab local.store_sezane.watch
-        - git:
-          - pipenv shell
 
