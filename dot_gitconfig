@@ -9,7 +9,7 @@
 [user]
 name = Baptiste Leduc
 email = baptiste.leduc@gmail.com
-	signingkey = 1B84BEAADFA969CB
+signingkey = 94B35060CCD69D73
 
 [color]
 # Enable colors in color-supporting terminals
