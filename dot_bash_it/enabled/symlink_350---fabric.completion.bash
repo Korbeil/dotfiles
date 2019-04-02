@@ -1,1 +1,0 @@
-../completion/available/fabric.completion.bash

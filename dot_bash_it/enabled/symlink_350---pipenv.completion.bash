@@ -1,1 +1,0 @@
-../completion/available/pipenv.completion.bash
