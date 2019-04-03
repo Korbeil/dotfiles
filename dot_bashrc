@@ -16,6 +16,10 @@ source ~/.bin/tmuxinator.bash
 source ~/.bin/fabric-completion.bash
 source ~/.bin/git-completion.bash
 
+if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
+    . /etc/bash_completion
+fi
+
 # Autocomple with sudo
 complete -cf sudo
 
