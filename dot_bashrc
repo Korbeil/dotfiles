@@ -6,6 +6,7 @@ export LSCOLORS=ExFxCxDxBxegedabagacad
 
 export PATH=$PATH:~/.local/bin
 export EDITOR=`which vim`
+export GOPATH=$HOME/Go
 
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
