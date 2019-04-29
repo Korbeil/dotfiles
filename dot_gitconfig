@@ -116,3 +116,5 @@ prereleaseSuffix = -rc
 prereleaseSuffix = .rc
 [commit]
 	gpgsign = true
+[rerere]
+	enabled = true
