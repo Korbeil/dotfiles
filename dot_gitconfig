@@ -76,6 +76,9 @@ writeToTemp = true
 # Auto-accept file prompts when launching merge tools
 prompt = false
 
+[rebase]
+instructionFormat = "[%an @ %ar] %s"
+
 [pull]
 # This is GREAT… when you know what you're doing and are careful
 # not to pull --no-rebase over a local line containing a true merge.

@@ -4,3 +4,4 @@ alias tnew="tmux new-session -t"
 alias tas="tmux attach-session -t"
 alias tls="tmux list-sessions"
 
+alias git-clean-merged="git branch --merged | egrep -v \"(^\\*|master|dev)\" | xargs git branch -d"
