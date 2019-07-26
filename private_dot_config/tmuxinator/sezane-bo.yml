@@ -1,0 +1,21 @@
+# /home/baptiste/.config/tmuxinator/sezane.yml
+
+name: sezane
+root: ~/Sites/JoliCode/sezane/
+
+# Run on project start, the first time
+on_project_start: pipenv run fab local.start
+
+
+# Runs on project start, always
+on_project_stop: pipenv run fab local.stop
+
+windows:
+  - base:
+      layout: main-vertical
+      panes:
+        - base:
+          - pipenv run fab local.create_database && pipenv shell
+        - bo_watch:
+          - pipenv shell cd project/apps/bo && yarn install && yarn start
+
