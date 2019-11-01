@@ -26,4 +26,7 @@ sudo chmod +x /usr/local/bin/ctop
 ## Gnome extensions 
 
 - [Emoji Selector](https://extensions.gnome.org/extension/1162/emoji-selector/)
+- [GTK Title Bar](https://extensions.gnome.org/extension/1732/gtk-title-bar/)
+- [Screenshot tool](https://extensions.gnome.org/extension/1112/screenshot-tool/)
+- [Switcher](https://extensions.gnome.org/extension/973/switcher/)
 
