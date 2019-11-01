@@ -16,6 +16,11 @@ sudo apt install vim git curl ruby python-pip npm yarn tmux docker.io python3-de
 pip install pipenv
 sudo pip3 install thefuck
 sudo gem install tmuxinator
+
+sudo usermod -a -G docker $USER
+
+sudo wget https://github.com/bcicen/ctop/releases/download/v0.7.2/ctop-0.7.2-linux-amd64 -O /usr/local/bin/ctop
+sudo chmod +x /usr/local/bin/ctop
 ```
 
 ## Gnome extensions 
