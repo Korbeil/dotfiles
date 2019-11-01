@@ -29,4 +29,5 @@ sudo chmod +x /usr/local/bin/ctop
 - [GTK Title Bar](https://extensions.gnome.org/extension/1732/gtk-title-bar/)
 - [Screenshot tool](https://extensions.gnome.org/extension/1112/screenshot-tool/)
 - [Switcher](https://extensions.gnome.org/extension/973/switcher/)
+- [Remove ALT-Tab delay](https://extensions.gnome.org/extension/1403/remove-alttab-delay/)
 
