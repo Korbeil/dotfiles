@@ -34,7 +34,6 @@ Red="\[\e[00;31m\]"
 export GIT_PS1_SHOWDIRTYSTATE=true
 export GIT_PS1_SHOWUNTRACKEDFILES=true
 
-source ~/.git-prompt.sh
 type -t __git_ps1 &>/dev/null
 GIT=$?
 PS1GIT=""
