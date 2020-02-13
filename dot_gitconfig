@@ -30,7 +30,7 @@ rc = rebase --continue
 rs = rebase --skip
 r = remote -v
 t = tag -n
-clear = "!git fetch --prune ; git branch --merged origin/master | xargs git branch -d"
+clear = ! git branch --no-color --merged | /bin/grep -v '*' | /bin/grep -v master | xargs --no-run-if-empty git branch -d
 
 [core]
 # Don't consider trailing space change as a cause for merge conflicts

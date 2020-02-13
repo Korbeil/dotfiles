@@ -1,6 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/Users/baptisteleduc/.bash_it'
 let g:netrw_dirhist_2='/Users/baptisteleduc/.yarn-cache'
 let g:netrw_dirhist_3='/home/baptiste/.config/tmuxinator'
 let g:netrw_dirhist_4='/home/baptiste'
+let g:netrw_dirhist_5='/home/bleduc/.local/share/virtualenvs/docker-starter-uU1MlYkb/lib/python2.7/site-packages/fabric'
+let g:netrw_dirhist_6='/home/bleduc/Sites/jolicode/stock-serverless/specs'

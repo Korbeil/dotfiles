@@ -1,0 +1,18 @@
+# See: http://about.travis-ci.org/docs/user/build-configuration/
+
+language: php
+php:
+  - 5.6
+
+before_script:
+  - cp conf/twgit-dist.sh conf/twgit.sh
+  - cp conf/phpunit-dist.php conf/phpunit.php
+  - git config --global user.name 'Firstname Lastname'
+  - git config --global user.email 'firstname.lastname@xyz.com'
+script: phpunit --configuration conf/phpunit-dist.xml
+after_script:
+  - tests/inc/codeCoverage.sh <(find $(pwd)/inc -type f -name '*.sh' && echo $(pwd)/twgit) <(find $(pwd) -type f -name '*Test.php')
+
+notifications:
+  on_success: always
+  on_failure: always

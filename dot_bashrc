@@ -4,7 +4,7 @@ export GREP_OPTIONS='--color=auto' GREP_COLOR='1;32'
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
 
-export PATH=$PATH:~/.local/bin
+export PATH="$PATH:$(go env GOROOT)/bin:~/.composer/vendor/bin/:~/.local/bin:$HOME/.cargo/bin"
 export EDITOR=`which vim`
 export GOPATH=$HOME/Go
 
@@ -16,6 +16,7 @@ fi
 source ~/.bin/tmuxinator.bash
 source ~/.bin/fabric-completion.bash
 source ~/.bin/git-completion.bash
+source ~/.bin/composer-completion.bash
 
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion

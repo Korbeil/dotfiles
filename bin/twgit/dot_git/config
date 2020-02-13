@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = git@github.com:Twenga/twgit.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "stable"]
+	remote = origin
+	merge = refs/heads/stable
