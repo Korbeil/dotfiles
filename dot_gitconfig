@@ -7,8 +7,8 @@
 # Inpired by https://gist.github.com/tdd/470582 from Christophe Porteneuve
 
 [user]
-name = Baptiste Leduc
-email = baptiste.leduc@gmail.com
+	name = Baptiste Leduc
+	email = baptiste.leduc@gmail.com
 signingkey = E35B5D50B5BE1A8A
 
 [color]
