@@ -23,6 +23,10 @@ sudo wget https://github.com/bcicen/ctop/releases/download/v0.7.2/ctop-0.7.2-lin
 sudo chmod +x /usr/local/bin/ctop
 ```
 
+## Manual installations
+
+- [lsd](https://github.com/Peltoche/lsd)
+
 ## Gnome extensions 
 
 - [Emoji Selector](https://extensions.gnome.org/extension/1162/emoji-selector/)

@@ -9,7 +9,7 @@
 [user]
 name = Baptiste Leduc
 email = baptiste.leduc@gmail.com
-	signingkey = 9877D0E816CDB928
+signingkey = E35B5D50B5BE1A8A
 
 [color]
 # Enable colors in color-supporting terminals
@@ -119,8 +119,8 @@ prereleaseSuffix = .beta
 prereleaseSuffix = -rc
 prereleaseSuffix = .rc
 [commit]
-	gpgsign = true
+gpgsign = true
 [rerere]
-	enabled = true
+enabled = true
 [gpg]
-	program = gpg2
+program = gpg2
