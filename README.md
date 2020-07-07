@@ -12,7 +12,7 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 curl -sfL https://git.io/chezmoi | sh
 
 sudo apt-get update
-sudo apt install vim git curl ruby python-pip npm yarn tmux docker.io python3-dev python3-pip python3-setuptools
+sudo apt install vim git curl ruby python-pip npm yarn tmux docker.io python3-dev python3-pip python3-setuptools i3xrocks-battery
 pip install pipenv
 sudo pip3 install thefuck
 sudo gem install tmuxinator
