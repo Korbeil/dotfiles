@@ -31,6 +31,7 @@ rs = rebase --skip
 r = remote -v
 t = tag -n
 clear = ! git branch --no-color --merged | /bin/grep -v '*' | /bin/grep -v master | xargs --no-run-if-empty git branch -d
+branch-history = for-each-ref --sort=committerdate refs/heads/ --format='%(color: red)%(committerdate:short) %(color: cyan)%(refname:short)'
 
 [core]
 # Don't consider trailing space change as a cause for merge conflicts

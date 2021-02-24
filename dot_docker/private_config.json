@@ -1,0 +1,14 @@
+{
+	"auths": {
+		"registry.gitlab.com": {
+			"auth": "S29yYmVpbDpUb3RWS0s3MjN5a0h6cGJEWlR1eQ=="
+		},
+		"registry.redhat.io": {
+			"auth": "aWdlc3Rlc3Q6Q291Y291R0VTMUA="
+		}
+	},
+	"HttpHeaders": {
+		"User-Agent": "Docker-Client/19.03.8 (linux)"
+	},
+	"psFormat": "table {{.Names}}\\t{{.Image}}\\t{{.RunningFor}}\\t{{.Status}}\\t{{.Command}}"
+}
